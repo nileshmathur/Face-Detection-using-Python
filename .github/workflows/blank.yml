@@ -33,4 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Start running the file,
-          jupyter notebook *.ipynb
+          pip install runipy
+          runipy *.ipynb
